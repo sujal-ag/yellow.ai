@@ -1,0 +1,19 @@
+{
+  "name": "notification-dispatcher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scheduled notification dispatcher: API + workers on MySQL and Redis.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "api": "node src/server.js",
+    "worker": "node src/worker/index.js"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "ioredis": "5.4.1",
+    "mysql2": "3.11.5"
+  }
+}

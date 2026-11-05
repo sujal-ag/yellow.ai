@@ -1,0 +1,16 @@
+{
+  "name": "mock-provider",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Mock notification provider: idempotent POST /send with injected errors and timeouts, GET /stats.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}
